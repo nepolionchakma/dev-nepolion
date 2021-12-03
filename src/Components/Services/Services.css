@@ -1,0 +1,26 @@
+.service-1{
+    background: #6C6CE5;
+}
+.service-2{
+    background: #F9D74C;
+}
+.hover:hover{
+    margin-left: 10px!important;
+    transition: .5s;
+}
+.hover:hover h3{
+    color: tomato;
+}
+.hover:hover img{
+    transform: scale(1.05,1.05);
+    transition: .5s;
+}
+.hover{
+    transition: .5s;
+    overflow: hidden;
+    position: relative;
+}
+.hover:hover a{
+    transition: .5s;
+    margin-left: 10px;
+}

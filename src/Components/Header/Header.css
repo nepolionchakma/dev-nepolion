@@ -1,0 +1,10 @@
+.my-border{
+    border-bottom: 1px solid gray;
+}
+.custom-color{
+    background: #353353;
+}
+.active{
+    font-weight: bold;
+    border-bottom: 2px solid tomato;
+}
