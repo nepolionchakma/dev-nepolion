@@ -42,12 +42,12 @@ const Contact = () => {
                                 className="text-white"
                             >
 
-                                <TextField sx={{ m: 1 }} fullWidth id="name" label="Name" variant="outlined" name="name" />
-                                <TextField sx={{ m: 1 }} fullWidth id="email" label="Email" variant="outlined" name="email" />
-                                <TextField sx={{ m: 1 }} fullWidth id="phone" label="Phone" variant="outlined" name="phone" />
-                                <TextField sx={{ m: 1 }} fullWidth id="subject" label="Subject" variant="outlined" name="subject" />
+                                <TextField sx={{ m: 1 }} fullWidth id="name" label="Name" variant="outlined" name="name" required />
+                                <TextField sx={{ m: 1 }} fullWidth id="email" label="Email" variant="outlined" name="email" required />
+                                <TextField sx={{ m: 1 }} fullWidth id="phone" label="Phone" variant="outlined" name="phone" required />
+                                <TextField sx={{ m: 1 }} fullWidth id="subject" label="Subject" variant="outlined" name="subject" required />
                                 <TextField sx={{ m: 1 }} fullWidth multiline maxRows={4} aria-label="minimum height"
-                                    minRows={3} id="message" label="Message" variant="outlined" name="message" />
+                                    minRows={3} id="message" label="Message" variant="outlined" name="message" required />
 
                                 <FormHelperText id="my-helper-text"></FormHelperText>
                                 <Button sx={{ m: 1 }} type="submit" variant="contained">Submit</Button>

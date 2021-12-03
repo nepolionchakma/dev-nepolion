@@ -28,7 +28,9 @@ const About = () => {
                                 <a href="https://www.linkedin.com/in/nepolionchakma/"> <FontAwesomeIcon icon={faLinkedin} target="_blank" rel="noreferrer noopener" className="text-white fs-2 m-3 text-decoration-none" /></a>
                             </div>
                             <div className="hover text-center">
-                                <Link to="./resume.pdf" target="_blank" rel="noreferrer noopener" className="btn btn-success text-center" download>Resume <FontAwesomeIcon icon={faFileDownload} /></Link>
+                                {/* <Link to="./resume.pdf" target="_blank" rel="noreferrer noopener"
+                                    className="inline-block text-white fw-bold d-inline nav-link btn btn-success rounded" download>Resume <FontAwesomeIcon icon={faFileDownload} /></Link> */}
+                                <Link to="./resume.pdf" target="_blank" rel="noreferrer noopener" className="btn btn-success text-decoration-none" download>Resume <FontAwesomeIcon icon={faFileDownload} /></Link>
                             </div>
                         </div>
                         <div className="col-lg-9 col-md-12 col-sm-12 col-12 py-4">

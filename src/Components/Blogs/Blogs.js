@@ -16,7 +16,7 @@ const Blogs = () => {
                         animateOut='fadeOut'>
                         <div className=" service-1 hover m-2 rounded">
                             <img className="w-100" src="https://bolby-react.vercel.app/images/blog/1.svg" alt="" />
-                            <div className="p-3">
+                            <div className="p-4">
                                 <h3 className="my-3 fw-bold">Full-Stack Development</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, dolor.</p>
                             </div>
@@ -58,7 +58,7 @@ const Blogs = () => {
                         animateOut='fadeOut'>
                         <div className=" service-1 hover m-2 rounded">
                             <img className="w-100" src="https://bolby-react.vercel.app/images/blog/2.svg" alt="" />
-                            <div className="p-3">
+                            <div className="p-4">
                                 <h3 className="my-3 fw-bold">Fornt-End Development</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, dolor.</p>
                             </div>
@@ -100,7 +100,7 @@ const Blogs = () => {
                         animateOut='fadeOut'>
                         <div className=" service-1 hover m-2 rounded">
                             <img className="w-100" src="https://bolby-react.vercel.app/images/blog/3.svg" alt="" />
-                            <div className="p-3">
+                            <div className="p-4">
                                 <h3 className="my-3 fw-bold">Back-End Development</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, dolor.</p>
                             </div>
