@@ -28,7 +28,7 @@ const Contact = () => {
                 <div className="row m-0">
                     <div className="col-lg-6 col-md-6 col-sm-6 col-12 my-4 text-white">
                         <h3 className="fw-bold">Let's talk about everything!</h3>
-                        <p>Don't like forms? Send me an email.</p>
+                        <p>Don't like forms? Send me an <a className="text-decoration-none text-danger" href="mailto:nepolionchakma.nc@gmail.com">email</a> .</p>
                         <img className="w-100 my-3 " src="https://i.ibb.co/fFN3kW5/world-map-png-35423.png" alt="" />
                     </div>
 

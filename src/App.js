@@ -90,7 +90,7 @@ function App() {
       }
     },
     interactivity: {
-      detect_on: "canvas",
+      // detect_on: "canvas",
       events: {
         onhover: {
           enable: true,
@@ -121,7 +121,7 @@ function App() {
           duration: 0.4
         },
         push: {
-          particles_nb: 4
+          particles_nb: 1
         },
         remove: {
           particles_nb: 2
